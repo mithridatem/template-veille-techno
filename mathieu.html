@@ -1,0 +1,60 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Template Veille Technologique</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./logo.png" alt="logo veille">
+            <p>Veille Technologique <strong>TSSR-25-06</strong></p>
+        </nav>
+    </header>
+    <main>
+        <article>
+    <header class="article-header">
+        <p class="eyebrow">Fiche de veille</p>
+        <h1>Principes de conception d'une architecture Zero Trust (NCSC)</h1>
+        <p class="intro">Présentation d'un modèle de sécurité moderne où la confiance implicite dans le réseau est supprimée au profit d'une vérification continue de chaque accès.</p>
+    </header>
+
+    <section class="meta" aria-label="Informations de veille">
+        <p><strong>Thème :</strong> Architecture réseau et Cybersécurité</p>
+        <p><strong>Date :</strong> 21 avril 2026 (Source mise à jour le 24 août 2021) </p>
+        <p><strong>Auteur / Source :</strong> NCSC (National Cyber Security Centre - UK) </p>
+    </section>
+
+    <section>
+        <h2>Description :</h2>
+        <p>L'architecture Zero Trust repose sur huit principes fondamentaux pour sécuriser les environnements d'entreprise :</p>
+        <p>1. <strong>Connaître son architecture :</strong> Identifier précisément chaque utilisateur, appareil, service et donnée pour évaluer les risques.</p>
+        <p>2. <strong>Identités uniques :</strong> Chaque entité (humain ou logiciel) doit avoir une identité unique identifiable par cryptographie.</p>
+        <p>3. <strong>Évaluer la santé et le comportement :</strong> Mesurer l'état des appareils et les habitudes des utilisateurs pour détecter des signaux de risque.</p>
+        <p>4. <strong>Autoriser via des politiques :</strong> Chaque requête doit être validée par un moteur de règles flexible et adaptatif.</p>
+        <p>5. <strong>Authentifier et autoriser partout :</strong> Ne plus se fier à l'emplacement physique ; chaque connexion doit être vérifiée.</p>
+        <p>6. <strong>Surveillance ciblée :</strong> Concentrer le monitoring sur les comportements des entités pour assurer la conformité aux politiques.</p>
+        <p>7. <strong>Ne faire confiance à aucun réseau :</strong> Considérer tous les réseaux comme hostiles et utiliser des protocoles de transport sécurisés (chiffrement).</p>
+        <p>8. <strong>Choisir des services adaptés :</strong> Privilégier les solutions conçues nativement pour le Zero Trust afin de faciliter l'intégration.</p>
+    </section>
+
+    <section>
+        <h2>Analyse :</h2>
+        <p>Le Zero Trust marque une rupture avec la sécurité périmétrique traditionnelle ("château fort"). Pour un futur AIS, l'impact majeur réside dans la gestion des <strong>identités</strong> et des <strong>politiques d'accès dynamiques</strong> qui remplacent la simple confiance liée au branchement physique sur un réseau.</p>
+        <p>Le risque principal identifié est la difficulté d'intégrer des <strong>services obsolètes (legacy)</strong> qui ne supportent pas ces protocoles modernes, ce qui peut augmenter les coûts de support. Ma recommandation est de privilégier des produits utilisant des <strong>technologies standards</strong> pour garantir l'interopérabilité.</p>
+    </section>
+
+    <section>
+        <h2>Lien de la ressource :</h2>
+        <a href="https://github.com/ukncsc/zero-trust-architecture">NCSC - Zero Trust Architecture Design Principles</a>
+    </section>
+</article>
+
+            <footer class="article-footer">
+                <p><!-- Optionnel : mots-clés, catégorie, niveau de criticité, etc. --></p>
+            </footer>
+        </article>
+    </main>
+</body>
+</html>
